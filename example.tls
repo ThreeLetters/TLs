@@ -1,1 +1,24 @@
+// this is a comment
 
+// classes are like es6 classes in javascript
+class test = {
+    constructor() {
+    this.lol = int 5; // you must specify the type. Types: int, boolean, etc...
+    this.array = [int]; // must specify the type.
+    this.private = private [int] // private, public, static
+    }
+    int (string lol) { // return output
+    var p = int // var is also used
+    
+    }
+    
+    
+
+
+}
+
+var class = new Test() // no need to define type;
+
+// or
+
+var something = struct Test Test(); // use struct
