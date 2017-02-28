@@ -1,1 +1,14 @@
 
+
+var test = string $CONFIGS.something; // $ == compilation var. so when compiling, it will be replaced with the value for $CONFIGS.something
+
+$if(CONFIGS.lol == "something") < // this is also a compilation command
+
+console.log(test)
+
+> else <
+
+console.log(test . "lol") // string concat
+
+>
+
