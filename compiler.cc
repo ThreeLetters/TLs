@@ -12,8 +12,8 @@ void Compiler::compile (void) {
 }
 
 int main() {
-  
-  
+  Compiler compiler
+  compiler.compile(void)
   
  return 0; 
 }
