@@ -1,0 +1,9 @@
+{
+ "files": ["index.tls"], // wildcards also work
+  "name": "example project",
+  "version": "0.0.0",
+  "entry": "index.tls",
+  "configs": "config.json"
+  
+  
+}
