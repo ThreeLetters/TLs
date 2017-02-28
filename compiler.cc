@@ -1,19 +1,23 @@
 #include<iostream>
 #include<fstream>
+#include <string>
 using namespace std;
 
 class Compiler {
   public: 
-     void compile(void);
+     void compile(string);
 }
-void Compiler::compile (void) {
+void Compiler::compile (string) {
   
   
 }
 
 int main() {
+  
+  string str;
+  
   Compiler compiler
-  compiler.compile(void)
+  compiler.compile(str)
   
  return 0; 
 }
