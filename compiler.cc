@@ -14,10 +14,17 @@ void Compiler::compile (string) {
 
 int main() {
   
-  string str;
+ std::ifstream file("compile.tls");
+std::string str;
+std::string file_contents;
+while (std::getline(file, str))
+{
+  file_contents += str;
+  file_contents.push_back('\n');
+}  
   
   Compiler compiler
-  compiler.compile(str)
+  compiler.compile(file_contents)
   
  return 0; 
 }
